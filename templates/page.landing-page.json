@@ -8,13 +8,15 @@
  * ------------------------------------------------------------
  */
 {
+  "layout": "theme.lading-page",
   "sections": {
     "main": {
       "type": "landing-page-dringkage",
       "settings": {}
+    },
+    "video_banner": {
+      "type": "lp-dringkage-video-banner"
     }
   },
-  "order": [
-    "main"
-  ]
+  "order": ["main", "video_banner"]
 }
