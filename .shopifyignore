@@ -1,0 +1,18 @@
+# OS generated files
+
+######################
+.DS*Store
+.DS_Store?
+.*\*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.shopify
+translation.yml
+.gitignore
+README.md
+release-notes.md
+.vscode
+.prettierrc.json
+.theme-check.yml
