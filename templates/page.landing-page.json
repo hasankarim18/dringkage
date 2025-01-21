@@ -16,7 +16,13 @@
     },
     "video_banner": {
       "type": "lp-dringkage-video-banner",
-      "settings": {}
+      "settings": {
+        "banner_video": "shopify://files/videos/banner-video.mp4",
+        "title": "We’re here to help you feel balanced strong focused",
+        "short_desc": "AG1 is a daily Foundational Nutrition supplement that supports whole body health.*",
+        "link_title": "Start Your AG1 Today",
+        "link_url": ""
+      }
     }
   },
   "order": [
