@@ -12,10 +12,13 @@
       object-fit: cover;
     }
   </style>
-  <video autoplay loop muted plays-inline playsinline preload="none" class="background_clip">
-    <source src="{{ section.settings.banner_video.sources.first.url  }}" type="video/mp4">
-  </video>
+  <!--
+    <video autoplay loop muted plays-inline playsinline preload="none" class="background_clip">
+      <source src="{{ section.settings.banner_video.sources.first.url  }}" type="video/mp4">
+    </video>
+  -->
 
+  {{ media | video_tag: autoplay: true, loop: true, muted: true, controls: true }}
   <div class="container">
     {{ section.settings.banner_video.sources.first.url | json }}
     <div class="row">
