@@ -17,7 +17,7 @@
   </video>
 
   <div class="container">
-    {{ section.settings.banner_video | json }}
+    {{ section.settings.banner_video.sources.first.url | json }}
     <div class="row">
       <div class="col_5 col">
         <div class="banner_content">
