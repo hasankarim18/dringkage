@@ -18,7 +18,10 @@
     </video>
   -->
 
-  {{ media | video_tag: autoplay: true, loop: true, muted: true, controls: true }}
+  {{
+    section.settings.banner_video
+    | video_tag: autoplay: true, loop: true, muted: true, controls: true, class: 'background_clip'
+  }}
   <div class="container">
     {{ section.settings.banner_video.sources.first.url | json }}
     <div class="row">
