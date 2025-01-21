@@ -15,8 +15,12 @@
       "settings": {}
     },
     "video_banner": {
-      "type": "lp-dringkage-video-banner"
+      "type": "lp-dringkage-video-banner",
+      "settings": {}
     }
   },
-  "order": ["main", "video_banner"]
+  "order": [
+    "main",
+    "video_banner"
+  ]
 }
