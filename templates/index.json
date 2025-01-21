@@ -1,7 +1,7 @@
 {
   "sections": {
     "lp_dringkage": {
-      "type": "dringkage",
+      "type": "landing-page-dringkage",
       "settings": {}
     },
     "image_banner": {
