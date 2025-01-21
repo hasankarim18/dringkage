@@ -20,7 +20,7 @@
 
   {{
     section.settings.banner_video
-    | video_tag: autoplay: true, loop: true, muted: true, controls: true, class: 'background_clip'
+    | video_tag: autoplay: true, loop: true, muted: true, controls: false, class: 'background_clip'
   }}
   <div class="container">
     {{ section.settings.banner_video.sources.first.url | json }}
