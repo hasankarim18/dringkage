@@ -30,24 +30,6 @@
     },
     "lp_dringkage_featured_list": {
       "type": "lp-dringkage-featured-list",
-      "blocks": {
-        "list_items_jycTTe": {
-          "type": "list_items",
-          "settings": {
-            "title": "Multivitamin"
-          }
-        },
-        "list_items_8GAAfW": {
-          "type": "list_items",
-          "settings": {
-            "title": "Multivitamin"
-          }
-        }
-      },
-      "block_order": [
-        "list_items_jycTTe",
-        "list_items_8GAAfW"
-      ],
       "settings": {
         "title": "More-in-one nutrition",
         "content1": "AG1 is designed to replace multiple supplements by covering nutritional gaps with a comprehensive blend of nutrients. Just one tasty scoop each day helps meet your foundational health needs.*",
