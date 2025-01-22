@@ -31,57 +31,71 @@
     "lp_dringkage_featured_list": {
       "type": "lp-dringkage-featured-list",
       "blocks": {
-        "list_items_RGFKCy": {
+        "list_items_CErzdm": {
           "type": "list_items",
           "settings": {
             "title": "Multivitamin"
+          }
+        },
+        "list_items_TcYxzr": {
+          "type": "list_items",
+          "settings": {
+            "title": "Multimineral"
+          }
+        },
+        "list_items_RGFKCy": {
+          "type": "list_items",
+          "settings": {
+            "title": "Stress adaptogens"
           }
         },
         "list_items_9rU97X": {
           "type": "list_items",
           "settings": {
-            "title": "Multivitamin"
+            "title": "Prebiotics"
           }
         },
         "list_items_d6nc4E": {
           "type": "list_items",
           "settings": {
-            "title": "Multivitamin"
+            "title": "Probiotics"
           }
         },
         "list_items_tCRCQV": {
           "type": "list_items",
           "settings": {
-            "title": "Multivitamin"
+            "title": "Antioxidants"
+          }
+        },
+        "list_items_VHUTf9": {
+          "type": "list_items",
+          "settings": {
+            "title": "Superfoods"
           }
         },
         "list_items_k7FmqT": {
           "type": "list_items",
           "settings": {
-            "title": "Multivitamin"
+            "title": "Functional mushrooms"
           }
         },
-        "list_items_AiPFeW": {
+        "list_items_jXCUgj": {
           "type": "list_items",
           "settings": {
-            "title": "Multivitamin"
-          }
-        },
-        "list_items_eDR7DK": {
-          "type": "list_items",
-          "settings": {
-            "title": "Multivitamin"
+            "title": "Digestive enzymes"
           }
         }
       },
       "block_order": [
+        "list_items_CErzdm",
+        "list_items_TcYxzr",
         "list_items_RGFKCy",
         "list_items_9rU97X",
         "list_items_d6nc4E",
         "list_items_tCRCQV",
+        "list_items_VHUTf9",
         "list_items_k7FmqT",
-        "list_items_AiPFeW",
-        "list_items_eDR7DK"
+        "list_items_jXCUgj"
       ],
       "settings": {
         "title": "More-in-one nutrition",
