@@ -49,7 +49,7 @@
                       assign disabled_link = ''
                     endif
                   %}
-                  <a class="btn_style1" href="{{ block.settings.link_url }}">
+                  <a class="btn_style1 {{ disabled_link }}" href="{{ block.settings.link_url }}">
                     {{ block.settings.link_title }}
                     <i
                       class="fa-solid fa-arrow-right-long"
@@ -98,7 +98,8 @@
           "type": "text",
           "id": "link_title",
           "label": "Link title",
-          "default": "Start Your AG1 Today"
+          "default": "Start Your AG1 Today",
+          "info": "Please Add link below to activate link"
         },
         {
           "type": "url",
