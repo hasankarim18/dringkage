@@ -41,6 +41,14 @@
                 <div class="banner_content">
                   <h2 class="title">{{ block.settings.title }}</h2>
                   <p class="des_type1">{{ section.settings.short_desc }}</p>
+                  {% liquid
+                    assign disabled_link = ''
+                    if block.settings.link_url != blank
+                      assign disabled_link = 'cursor-disable'
+                    elsif condition
+                      assign disabled_link = ''
+                    endif
+                  %}
                   <a class="btn_style1" href="{{ block.settings.link_url }}">
                     {{ block.settings.link_title }}
                     <i
