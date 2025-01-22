@@ -29,7 +29,7 @@
             {% for block in section.settings.blocks %}
               {% case block.type %}
                 {% when 'list_items' %}
-                  <p class="right_t des_type4">— {{ block.title }}</p>
+                  <p class="right_t des_type4">— {{ block.settings.title }}</p>
                 {% else %}
                   <p class="right_t des_type4">— Add some lsits</p>
               {% endcase %}
