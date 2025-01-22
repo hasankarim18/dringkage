@@ -31,6 +31,42 @@
     "lp_dringkage_featured_list": {
       "type": "lp-dringkage-featured-list",
       "blocks": {
+        "list_items_RGFKCy": {
+          "type": "list_items",
+          "settings": {
+            "title": "Multivitamin"
+          }
+        },
+        "list_items_9rU97X": {
+          "type": "list_items",
+          "settings": {
+            "title": "Multivitamin"
+          }
+        },
+        "list_items_d6nc4E": {
+          "type": "list_items",
+          "settings": {
+            "title": "Multivitamin"
+          }
+        },
+        "list_items_tCRCQV": {
+          "type": "list_items",
+          "settings": {
+            "title": "Multivitamin"
+          }
+        },
+        "list_items_k7FmqT": {
+          "type": "list_items",
+          "settings": {
+            "title": "Multivitamin"
+          }
+        },
+        "list_items_AiPFeW": {
+          "type": "list_items",
+          "settings": {
+            "title": "Multivitamin"
+          }
+        },
         "list_items_eDR7DK": {
           "type": "list_items",
           "settings": {
@@ -39,6 +75,12 @@
         }
       },
       "block_order": [
+        "list_items_RGFKCy",
+        "list_items_9rU97X",
+        "list_items_d6nc4E",
+        "list_items_tCRCQV",
+        "list_items_k7FmqT",
+        "list_items_AiPFeW",
         "list_items_eDR7DK"
       ],
       "settings": {
