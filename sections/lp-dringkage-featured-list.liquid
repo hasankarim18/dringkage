@@ -2,9 +2,9 @@
 
 {%- liquid
   assign title = section.settings.title
-  assign content1 = section.settings.content1
-  assign content2 = section.settings.content2
-  assign listTitle = section.settings.list_title
+  assign content_1 = section.settings.content1
+  assign content_2 = section.settings.content2
+  assign list_title = section.settings.list_title
   assign image = section.settings.feature_image
 -%}
 
@@ -13,8 +13,8 @@
     <div class="row j_space_b">
       <div class="col_3 col">
         <h3 class="title_h3">{{ title }}</h3>
-        <p class="des_type2">{{ content1 }}</p>
-        <p class="des_type2 bold">{{ content2 }}</p>
+        <p class="des_type2">{{ content_1 }}</p>
+        <p class="des_type2 bold">{{ content_2 }}</p>
       </div>
       <div class="col_8 col bg_light">
         <div class="right_side row f_start">
@@ -24,7 +24,7 @@
             {% endif %}
           </div>
           <div class="col_6">
-            <p class="r_title">{{ listTitle }}</p>
+            <p class="r_title">{{ list_title }}</p>
             <hr>
             {% for block in section.settings.blocks %}
               <p class="right_t des_type4">— {{ block.title }}</p>
