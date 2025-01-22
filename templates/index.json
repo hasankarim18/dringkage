@@ -12,30 +12,12 @@
     "lp_dringkage_video_banner_pC8NMx": {
       "type": "lp-dringkage-video-banner",
       "settings": {
+        "banner_video": "shopify://files/videos/banner-video.mp4",
         "title": "We’re here to help you feel balanced strong focused",
         "short_desc": "AG1 is a daily Foundational Nutrition supplement that supports whole body health.*",
         "link_title": "Start Your AG1 Today",
-        "link_url": ""
+        "link_url": "#"
       }
-    },
-    "lp_dringkage_block": {
-      "type": "lp-dringkage-block-system",
-      "blocks": {
-        "video_banner": {
-          "type": "video_banner",
-          "settings": {
-            "banner_video": "shopify://files/videos/banner-video.mp4",
-            "title": "We’re here to help you feel balanced strong mind",
-            "short_desc": "AG1 is a daily Foundational Nutrition supplement that supports whole body health.",
-            "link_title": "Start Your AG1 Today",
-            "link_url": "#"
-          }
-        }
-      },
-      "block_order": [
-        "video_banner"
-      ],
-      "settings": {}
     },
     "lp_dringkage_review_section_mVmhDV": {
       "type": "lp-dringkage-review-section",
@@ -121,7 +103,6 @@
   },
   "order": [
     "lp_dringkage_video_banner_pC8NMx",
-    "lp_dringkage_block",
     "lp_dringkage_review_section_mVmhDV",
     "lp_dringkage_featured_list_7MpG9b"
   ]
