@@ -1,8 +1,14 @@
 {
   "sections": {
-    "lp_dringkage": {
-      "type": "landing-page-dringkage",
-      "settings": {}
+    "lp_dringkage_block": {
+      "type": "lp-dringkage-block-system",
+      "settings": {},
+      "blocks": {
+        "video_banner": {
+          "type": "video_banner"
+        }
+      },
+      "block_order": ["video_banner"]
     },
     "image_banner": {
       "disabled": true,
@@ -194,5 +200,5 @@
       }
     }
   },
-  "order": ["lp_dringkage", "image_banner", "rich_text", "featured_collection", "collage", "video", "multicolumn"]
+  "order": ["lp_dringkage_block", "image_banner", "rich_text", "featured_collection", "collage", "video", "multicolumn"]
 }
