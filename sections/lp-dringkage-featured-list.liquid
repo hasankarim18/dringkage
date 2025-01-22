@@ -27,7 +27,12 @@
             <p class="r_title">{{ list_title }}</p>
             <hr>
             {% for block in section.settings.blocks %}
-              <p class="right_t des_type4">— {{ block.title }}</p>
+              {% case block.type %}
+                {% when 'list_title' %}
+                  <p class="right_t des_type4">— {{ block.title }}</p>
+                {% else %}
+                  <p class="right_t des_type4">— Add some lsits</p>
+              {% endcase %}
             {% endfor %}
           </div>
         </div>
