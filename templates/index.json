@@ -1,17 +1,28 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "lp_dringkage_block": {
       "type": "lp-dringkage-block-system",
-      "settings": {},
       "blocks": {
         "video_banner": {
-          "type": "video_banner"
+          "type": "video_banner",
+          "settings": {}
         }
       },
-      "block_order": ["video_banner"]
+      "block_order": [
+        "video_banner"
+      ],
+      "settings": {}
     },
     "image_banner": {
-      "disabled": true,
       "type": "image-banner",
       "blocks": {
         "heading": {
@@ -40,7 +51,12 @@
           }
         }
       },
-      "block_order": ["heading", "text", "button"],
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
@@ -54,7 +70,6 @@
       }
     },
     "rich_text": {
-      "disabled": true,
       "type": "rich-text",
       "blocks": {
         "heading": {
@@ -71,7 +86,11 @@
           }
         }
       },
-      "block_order": ["heading", "text"],
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "full_width": true,
@@ -80,28 +99,27 @@
       }
     },
     "featured_collection": {
-      "disabled": true,
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
         "show_view_all": false,
-        "swipe_on_mobile": false,
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
       }
     },
     "collage": {
-      "disabled": true,
       "type": "collage",
       "blocks": {
         "collection-0": {
@@ -124,7 +142,12 @@
           }
         }
       },
-      "block_order": ["collection-0", "product", "collection-1"],
+      "block_order": [
+        "collection-0",
+        "product",
+        "collection-1"
+      ],
+      "disabled": true,
       "settings": {
         "heading": "Multimedia collage",
         "heading_size": "h2",
@@ -136,12 +159,12 @@
       }
     },
     "video": {
-      "disabled": true,
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "heading_size": "h1",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "scheme-1",
@@ -150,7 +173,6 @@
       }
     },
     "multicolumn": {
-      "disabled": true,
       "type": "multicolumn",
       "blocks": {
         "column1": {
@@ -181,7 +203,12 @@
           }
         }
       },
-      "block_order": ["column1", "column2", "column3"],
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -192,13 +219,21 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     }
   },
-  "order": ["lp_dringkage_block", "image_banner", "rich_text", "featured_collection", "collage", "video", "multicolumn"]
+  "order": [
+    "lp_dringkage_block",
+    "image_banner",
+    "rich_text",
+    "featured_collection",
+    "collage",
+    "video",
+    "multicolumn"
+  ]
 }
