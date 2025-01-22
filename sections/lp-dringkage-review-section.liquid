@@ -63,12 +63,35 @@
 </section>
 <!-- --------------Review Section End ------------------------ -->
 
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    var swiper = new Swiper('.mySwiper1', {
+      direction: 'vertical',
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  });
+</script>
+
 {% schema %}
 {
   "name": "LpDringkage Review",
   "tag": "section",
   "class": "padding_top_0",
-  "settings": [],
+  "settings": [
+    {
+      "type": "text",
+      "id": "data",
+      "label": "pick a date"
+    }
+  ],
   "presets": [
     {
       "name": "LpDringkage Review",
