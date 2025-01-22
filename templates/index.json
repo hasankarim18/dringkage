@@ -52,12 +52,54 @@
           "settings": {
             "title": "Stress adaptogens"
           }
+        },
+        "list_items_bcGLYH": {
+          "type": "list_items",
+          "settings": {
+            "title": "Multivitamin"
+          }
+        },
+        "list_items_YCDetE": {
+          "type": "list_items",
+          "settings": {
+            "title": "Prebiotics"
+          }
+        },
+        "list_items_DQgxTF": {
+          "type": "list_items",
+          "settings": {
+            "title": "Antioxidants"
+          }
+        },
+        "list_items_hk4H66": {
+          "type": "list_items",
+          "settings": {
+            "title": "Superfoods"
+          }
+        },
+        "list_items_C8wH8f": {
+          "type": "list_items",
+          "settings": {
+            "title": "Functional mushrooms"
+          }
+        },
+        "list_items_LmtJdx": {
+          "type": "list_items",
+          "settings": {
+            "title": "Digestive enzymes"
+          }
         }
       },
       "block_order": [
         "list_items_6J3TgG",
         "list_items_ycjCJ4",
-        "list_items_ziLXfh"
+        "list_items_ziLXfh",
+        "list_items_bcGLYH",
+        "list_items_YCDetE",
+        "list_items_DQgxTF",
+        "list_items_hk4H66",
+        "list_items_C8wH8f",
+        "list_items_LmtJdx"
       ],
       "settings": {
         "title": "More-in-one nutrition",
