@@ -43,9 +43,9 @@
                   <p class="des_type1">{{ section.settings.short_desc }}</p>
                   {% liquid
                     assign disabled_link = ''
-                    if block.settings.link_url != blank
+                    if block.settings.link_url == blank
                       assign disabled_link = 'cursor-disable'
-                    elsif condition
+                    elsif block.settings.link_url != blank
                       assign disabled_link = ''
                     endif
                   %}
