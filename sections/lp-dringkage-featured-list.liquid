@@ -27,7 +27,7 @@
             <p class="r_title">{{ list_title }}</p>
             <hr>
             <p class="right_t des_type4">— Add some lsits</p>
-            {% if section.settings.blocks %}
+            {% if section.blocks %}
               {% for block in section.blocks %}
                 {% case block.type %}
                   {% when 'list_items' %}
