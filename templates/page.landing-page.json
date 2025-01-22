@@ -23,10 +23,13 @@
         "link_title": "Start Your AG1 Right Now",
         "link_url": ""
       }
+    },
+    "lp_dringkage_review_feature": {
+      "type": "lp-dringkage-review-section"
+    },
+    "lp_dringkage_featured_list": {
+      "type": "lp-dringkage-featured-list"
     }
   },
-  "order": [
-    "main",
-    "video_banner"
-  ]
+  "order": ["main", "video_banner", "lp_dringkage_review_feature", "lp_dringkage_featured_list"]
 }

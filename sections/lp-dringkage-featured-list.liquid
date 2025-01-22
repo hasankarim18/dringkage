@@ -1,0 +1,98 @@
+<!-- featured list -->
+
+{%- liquid
+  assign title = section.settings.title
+  assign content1 = section.settings.content1
+  assign content2 = section.settings.content2
+  assign listTitle = section.settings.list_title
+  assign image = section.settings.feature_image
+-%}
+
+<section>
+  <div class="container bg_c_p">
+    <div class="row j_space_b">
+      <div class="col_3 col">
+        <h3 class="title_h3">{{ title }}</h3>
+        <p class="des_type2">{{ content1 }}</p>
+        <p class="des_type2 bold">{{ content2 }}</p>
+      </div>
+      <div class="col_8 col bg_light">
+        <div class="right_side row f_start">
+          <div class="col_5 center">
+            {% if image != black %}
+              <img src="{{ image |  image_url}}" alt="image.png">
+            {% endif %}
+          </div>
+          <div class="col_6">
+            <p class="r_title">{{ listTitle }}</p>
+            <hr>
+            {% for block in section.settings.blocks %}
+              <p class="right_t des_type4">— {{ block.title }}</p>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- featured list end -->
+
+{% schema %}
+{
+  "name": "LpDringkage Featured List",
+  "tag": "section",
+  "class": "padding_top_0",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "More-in-one nutrition"
+    },
+    {
+      "type": "textarea",
+      "id": "content1",
+      "label": "Content 1",
+      "default": "AG1 is designed to replace multiple supplements by covering nutritional gaps with a comprehensive blend of nutrients. Just one tasty scoop each day helps meet your foundational health needs.*"
+    },
+    {
+      "type": "text",
+      "id": "content2",
+      "label": "Content 2 bold",
+      "default": "Simply put, it’s a way to invest in your health now and in the long run."
+    },
+    {
+      "type": "image_picker",
+      "id": "feature_image",
+      "label": "Feature Image"
+    },
+    {
+      "type": "text",
+      "id": "list_title",
+      "label": "List title",
+      "default": "AG1 CONTAINS YOUR"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "List Itmes",
+      "type": "list_items",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Section Title",
+          "default": "More-in-one nutrition"
+        }
+      ]
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "LpDringkage Featured List",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
