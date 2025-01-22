@@ -36,10 +36,17 @@
           "settings": {
             "title": "Multivitamin"
           }
+        },
+        "list_items_8GAAfW": {
+          "type": "list_items",
+          "settings": {
+            "title": "Multivitamin"
+          }
         }
       },
       "block_order": [
-        "list_items_jycTTe"
+        "list_items_jycTTe",
+        "list_items_8GAAfW"
       ],
       "settings": {
         "title": "More-in-one nutrition",
