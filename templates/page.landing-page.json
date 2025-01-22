@@ -25,11 +25,35 @@
       }
     },
     "lp_dringkage_review_feature": {
-      "type": "lp-dringkage-review-section"
+      "type": "lp-dringkage-review-section",
+      "settings": {}
     },
     "lp_dringkage_featured_list": {
-      "type": "lp-dringkage-featured-list"
+      "type": "lp-dringkage-featured-list",
+      "blocks": {
+        "list_items_jycTTe": {
+          "type": "list_items",
+          "settings": {
+            "title": "Multivitamin"
+          }
+        }
+      },
+      "block_order": [
+        "list_items_jycTTe"
+      ],
+      "settings": {
+        "title": "More-in-one nutrition",
+        "content1": "AG1 is designed to replace multiple supplements by covering nutritional gaps with a comprehensive blend of nutrients. Just one tasty scoop each day helps meet your foundational health needs.*",
+        "content2": "Simply put, it’s a way to invest in your health now and in the long run.",
+        "feature_image": "shopify://shop_images/image.webp",
+        "list_title": "AG1 CONTAINS YOUR"
+      }
     }
   },
-  "order": ["main", "video_banner", "lp_dringkage_review_feature", "lp_dringkage_featured_list"]
+  "order": [
+    "main",
+    "video_banner",
+    "lp_dringkage_review_feature",
+    "lp_dringkage_featured_list"
+  ]
 }
