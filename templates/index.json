@@ -21,7 +21,22 @@
     },
     "lp_dringkage_review_section_mVmhDV": {
       "type": "lp-dringkage-review-section",
-      "settings": {}
+      "blocks": {
+        "review_bMrmVd": {
+          "type": "Review",
+          "settings": {
+            "review_text": "Great flavor and after continual use, I can definitely feel the difference in stress levels and overall wellness.",
+            "review_date": "Eric T., 5/19/23"
+          }
+        }
+      },
+      "block_order": [
+        "review_bMrmVd"
+      ],
+      "settings": {
+        "view_count": "37,776",
+        "title": "Verified 5-star reviews"
+      }
     },
     "lp_dringkage_featured_list_7MpG9b": {
       "type": "lp-dringkage-featured-list",
