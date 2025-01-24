@@ -216,13 +216,15 @@
         "image_with_title_4V8VNE": {
           "type": "image_with_title",
           "settings": {
-            "image_title": "Image title 1"
+            "image": "shopify://shop_images/imagebox1.webp",
+            "image_title": "Mix one scoop of AG1"
           }
         },
         "image_with_title_HbTTna": {
           "type": "image_with_title",
           "settings": {
-            "image_title": "Image title 2"
+            "image": "shopify://shop_images/imagebox2.webp",
+            "image_title": "With 8oz of cold water"
           }
         },
         "image_with_title_9M3bGX": {
