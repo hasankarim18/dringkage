@@ -42,12 +42,28 @@
             "review_text": "I have noticed a huge change in my digestive system since taking AG1 regularly.",
             "review_date": "Emily T., 5/19/23"
           }
+        },
+        "review_NdXj8J": {
+          "type": "review",
+          "settings": {
+            "review_text": "I have noticed a huge change in my digestive system since taking AG1 regularly.",
+            "review_date": "Lindsy T., 5/19/23"
+          }
+        },
+        "review_CPmzeH": {
+          "type": "review",
+          "settings": {
+            "review_text": "I have noticed a huge change in my digestive system since taking AG1 regularly.",
+            "review_date": "Emily T., 5/19/23"
+          }
         }
       },
       "block_order": [
         "review_XCzMLL",
         "review_whKFbF",
-        "review_K6HKna"
+        "review_K6HKna",
+        "review_NdXj8J",
+        "review_CPmzeH"
       ],
       "settings": {
         "view_count": "37,776",
