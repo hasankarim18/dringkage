@@ -35,11 +35,19 @@
             "review_text": "With AG1 I feel more energized and focused first thing in the morning.",
             "review_date": "David T., 5/19/23"
           }
+        },
+        "review_K6HKna": {
+          "type": "review",
+          "settings": {
+            "review_text": "I have noticed a huge change in my digestive system since taking AG1 regularly.",
+            "review_date": "Emily T., 5/19/23"
+          }
         }
       },
       "block_order": [
         "review_XCzMLL",
-        "review_whKFbF"
+        "review_whKFbF",
+        "review_K6HKna"
       ],
       "settings": {
         "view_count": "37,776",
