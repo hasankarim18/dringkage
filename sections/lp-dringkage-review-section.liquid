@@ -26,18 +26,15 @@
               {% for block in section.blocks %}
                 {% case block.type %}
                   {% when 'review' %}
-
-                  {% when second_value %}
-
+                    <div class="swiper-slide">
+                      <div class="review_slide">
+                        <p class="rev_text">“{{ block.review_text }}”</p>
+                        <p class="rev_text_b">{{ block.review_date }}</p>
+                      </div>
+                    </div>
                   {% else %}
-
+                    <div></div>
                 {% endcase %}
-                <div class="swiper-slide">
-                  <div class="review_slide">
-                    <p class="rev_text">“{{ block.review_text }}”</p>
-                    <p class="rev_text_b">{{ block.review_date }}</p>
-                  </div>
-                </div>
               {% endfor %}
             </div>
           </div>
