@@ -54,7 +54,7 @@
           "type": "review",
           "settings": {
             "review_text": "I have noticed a huge change in my digestive system since taking AG1 regularly.",
-            "review_date": "Emily T., 5/19/23"
+            "review_date": "Jason T., 5/19/23"
           }
         }
       },
@@ -77,6 +77,12 @@
           "type": "list_items",
           "settings": {
             "title": "Multimineral"
+          }
+        },
+        "list_items_FiPdKy": {
+          "type": "list_items",
+          "settings": {
+            "title": "Multiminaral"
           }
         },
         "list_items_ycjCJ4": {
@@ -130,6 +136,7 @@
       },
       "block_order": [
         "list_items_6J3TgG",
+        "list_items_FiPdKy",
         "list_items_ycjCJ4",
         "list_items_ziLXfh",
         "list_items_bcGLYH",
