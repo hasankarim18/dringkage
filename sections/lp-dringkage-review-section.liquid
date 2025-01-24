@@ -11,8 +11,10 @@
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
           </div>
-          <a class="rev_numher des_type4" href="#">37,776</a>
-          <p class="rev_s_text des_type4">Verified 5-star reviews</p>
+          <a class="rev_numher des_type4" href="#">{{ section.settings.view_count }}</a>
+          <p class="rev_s_text des_type4">
+            {{ section.settings.title }}
+          </p>
         </div>
       </div>
       <!-- Column -->
@@ -21,35 +23,14 @@
           <!-- Swiper -->
           <div class="swiper mySwiper1">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="review_slide">
-                  <p class="rev_text">
-                    “Great flavor and after continual use, I can definitely feel the difference in stress levels and
-                    overall wellness.”
-                  </p>
-                  <p class="rev_text_b">Eric T., 5/19/23</p>
+              {% for block in section.blocks %}
+                <div class="swiper-slide">
+                  <div class="review_slide">
+                    <p class="rev_text">“{{ block.review_text }}”</p>
+                    <p class="rev_text_b">{{ block.review_date }}</p>
+                  </div>
                 </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="review_slide">
-                  <p class="rev_text">
-                    “I have noticed a huge change in my digestive system since taking AG1 regularly.”
-                  </p>
-                  <p class="rev_text_b">Emily H., 7/18/23</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="review_slide">
-                  <p class="rev_text">“I’ve noticed my recovery seems easier and I have consistent energy levels.”</p>
-                  <p class="rev_text_b">Natalie W., 7/21/23</p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="review_slide">
-                  <p class="rev_text">“With AG1 I feel more energized and focused first thing in the morning.”</p>
-                  <p class="rev_text_b">Steven R., 4/18/23</p>
-                </div>
-              </div>
+              {% endfor %}
             </div>
           </div>
         </div>
@@ -88,8 +69,34 @@
   "settings": [
     {
       "type": "text",
-      "id": "data",
-      "label": "pick a date"
+      "id": "view_count",
+      "label": "View Count",
+      "default": "37,776"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Verified 5-star reviews"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Review",
+      "type": "Review",
+      "settings": [
+        {
+          "type": "text",
+          "id": "review_text",
+          "label": "Review Text"
+        },
+        {
+          "type": "text",
+          "id": "review_date",
+          "label": "Review Date",
+          "default": "Eric T., 5/19/23"
+        }
+      ]
     }
   ],
   "presets": [
