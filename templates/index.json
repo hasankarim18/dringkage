@@ -230,7 +230,8 @@
         "image_with_title_9M3bGX": {
           "type": "image_with_title",
           "settings": {
-            "image_title": "Image title 3"
+            "image": "shopify://shop_images/imagebox3.webp",
+            "image_title": "Shake"
           }
         },
         "image_with_title_9jVh9U": {
