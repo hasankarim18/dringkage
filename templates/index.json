@@ -153,11 +153,35 @@
         "feature_image": "shopify://shop_images/image.webp",
         "list_title": "AG1 CONTAINS YOUR"
       }
+    },
+    "lp_dringkage_icon_and_text_jH9CLb": {
+      "type": "lp-dringkage-icon-and-text",
+      "blocks": {
+        "icon_text_pttrE7": {
+          "type": "icon-text",
+          "settings": {
+            "title": "Science-driven nutrition supplement"
+          }
+        },
+        "icon_text_bPxPyf": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "shopify://shop_images/listimage6.svg",
+            "title": "Recycle your health"
+          }
+        }
+      },
+      "block_order": [
+        "icon_text_pttrE7",
+        "icon_text_bPxPyf"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "lp_dringkage_video_banner_pC8NMx",
     "lp_dringkage_review_section_mVmhDV",
-    "lp_dringkage_featured_list_7MpG9b"
+    "lp_dringkage_featured_list_7MpG9b",
+    "lp_dringkage_icon_and_text_jH9CLb"
   ]
 }
