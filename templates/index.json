@@ -209,12 +209,51 @@
         "icon_text_bPxPyf"
       ],
       "settings": {}
+    },
+    "lp_dringkage_imge_with_title_zqeBEe": {
+      "type": "lp-dringkage-imge-with-title",
+      "blocks": {
+        "image_with_title_4V8VNE": {
+          "type": "image_with_title",
+          "settings": {
+            "image_title": "Image title 1"
+          }
+        },
+        "image_with_title_HbTTna": {
+          "type": "image_with_title",
+          "settings": {
+            "image_title": "Image title 2"
+          }
+        },
+        "image_with_title_9M3bGX": {
+          "type": "image_with_title",
+          "settings": {
+            "image_title": "Image title 3"
+          }
+        },
+        "image_with_title_9jVh9U": {
+          "type": "image_with_title",
+          "settings": {
+            "image_title": "Image title 4"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_title_4V8VNE",
+        "image_with_title_HbTTna",
+        "image_with_title_9M3bGX",
+        "image_with_title_9jVh9U"
+      ],
+      "settings": {
+        "section_title": "Here’s how AG1 works"
+      }
     }
   },
   "order": [
     "lp_dringkage_video_banner_pC8NMx",
     "lp_dringkage_review_section_mVmhDV",
     "lp_dringkage_featured_list_7MpG9b",
-    "lp_dringkage_icon_and_text_jH9CLb"
+    "lp_dringkage_icon_and_text_jH9CLb",
+    "lp_dringkage_imge_with_title_zqeBEe"
   ]
 }
