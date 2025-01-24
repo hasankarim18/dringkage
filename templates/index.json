@@ -22,22 +22,8 @@
     "lp_dringkage_review_section_mVmhDV": {
       "type": "lp-dringkage-review-section",
       "blocks": {
-        "review_bMrmVd": {
-          "type": "Review",
-          "settings": {
-            "review_text": "Great flavor and after continual use, I can definitely feel the difference in stress levels and overall wellness.",
-            "review_date": "Eric T., 5/19/23"
-          }
-        },
-        "review_KTVnzy": {
-          "type": "Review",
-          "settings": {
-            "review_text": "I have noticed a huge change in my digestive system since taking AG1 regularly.",
-            "review_date": "Eric T., 5/19/23"
-          }
-        },
-        "review_zt8z98": {
-          "type": "Review",
+        "review_XCzMLL": {
+          "type": "review",
           "settings": {
             "review_text": "I’ve noticed my recovery seems easier and I have consistent energy levels.",
             "review_date": "Eric T., 5/19/23"
@@ -45,9 +31,7 @@
         }
       },
       "block_order": [
-        "review_bMrmVd",
-        "review_KTVnzy",
-        "review_zt8z98"
+        "review_XCzMLL"
       ],
       "settings": {
         "view_count": "37,776",
