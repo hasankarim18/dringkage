@@ -1,0 +1,94 @@
+<section>
+    <div class="container">
+        <h3 class="title_h3">{{ section.settings.section_title }}</h3>
+        <div class="row">
+          {% for block in section.blocks %}
+            {% case block.type %}
+              {% when 'image_with_title' %}
+                <div class="col_3 col_6_m image_box_sec">
+                  <!-- <div class="image_box_sec"> -->
+                  <img width="" height="" class="box_image" src="Image/imagebox1.png" alt="imagebox1">
+                  <h4 class="image_box_text">
+                    {{ block.settings.image_title }}
+                  </h4>
+                  <!-- </div> -->
+              </div>
+              {% else %}
+                <div></div>
+            {% endcase %}
+          {% endfor %}          
+
+        </div>
+    </div>
+</section>
+
+{% schema %}
+  {
+    "name": "lpDringkage Image title",
+    "tag": "section",
+    "class": "padding_top_0",
+    "blocks": [
+      {
+        "type": "image_with_title",
+        "name":"Image With Title",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Select you image"
+          },
+          {
+            "type": "text",
+            "id": "image_title",
+            "label": "Write Image Title"
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+        "type": "text",
+        "id": "section_title",
+        "label": "Section Title"       
+      }
+    ],
+    "presets": [
+      {
+        "name": "lpDringkage Image title",
+        "settings": {
+            "section_title":"Here’s how AG1 works For AGI"
+        },
+        "blocks": [
+          {
+            "type": "image_with_title",
+            "settings": {
+              "image":"",
+              "image_title":"Image title 1"
+            }
+          },
+          {
+            "type": "image_with_title",
+            "settings": {
+              "image":"",
+              "image_title":"Image title 2"
+            }
+          },
+          {
+            "type": "image_with_title",
+            "settings": {
+              "image":"",
+              "image_title":"Image title 3"
+            }
+          },
+          {
+            "type": "image_with_title",
+            "settings": {
+              "image":"",
+              "image_title":"Image title 4"
+            }
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
