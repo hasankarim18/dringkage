@@ -35,11 +35,19 @@
             "review_text": "I have noticed a huge change in my digestive system since taking AG1 regularly.",
             "review_date": "Eric T., 5/19/23"
           }
+        },
+        "review_zt8z98": {
+          "type": "Review",
+          "settings": {
+            "review_text": "I’ve noticed my recovery seems easier and I have consistent energy levels.",
+            "review_date": "Eric T., 5/19/23"
+          }
         }
       },
       "block_order": [
         "review_bMrmVd",
-        "review_KTVnzy"
+        "review_KTVnzy",
+        "review_zt8z98"
       ],
       "settings": {
         "view_count": "37,776",
