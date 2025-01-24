@@ -24,6 +24,14 @@
           <div class="swiper mySwiper1">
             <div class="swiper-wrapper">
               {% for block in section.blocks %}
+                {% case block.type %}
+                  {% when 'review' %}
+
+                  {% when second_value %}
+
+                  {% else %}
+
+                {% endcase %}
                 <div class="swiper-slide">
                   <div class="review_slide">
                     <p class="rev_text">“{{ block.review_text }}”</p>
@@ -83,7 +91,7 @@
   "blocks": [
     {
       "name": "Review",
-      "type": "Review",
+      "type": "review",
       "settings": [
         {
           "type": "text",
