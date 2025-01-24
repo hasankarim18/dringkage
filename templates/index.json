@@ -58,7 +58,13 @@
           }
         }
       },
-      "block_order": ["review_XCzMLL", "review_whKFbF", "review_K6HKna", "review_NdXj8J", "review_CPmzeH"],
+      "block_order": [
+        "review_XCzMLL",
+        "review_whKFbF",
+        "review_K6HKna",
+        "review_NdXj8J",
+        "review_CPmzeH"
+      ],
       "settings": {
         "view_count": "37,776",
         "title": "Verified 5-star reviews"
@@ -203,16 +209,12 @@
         "icon_text_bPxPyf"
       ],
       "settings": {}
-    },
-    "iamge_with_title": {
-      "type": "lp-dringkage-imge-with-title"
     }
   },
   "order": [
     "lp_dringkage_video_banner_pC8NMx",
     "lp_dringkage_review_section_mVmhDV",
     "lp_dringkage_featured_list_7MpG9b",
-    "lp_dringkage_icon_and_text_jH9CLb",
-    "iamge_with_title"
+    "lp_dringkage_icon_and_text_jH9CLb"
   ]
 }
