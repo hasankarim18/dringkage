@@ -234,10 +234,11 @@
             "image_title": "Shake"
           }
         },
-        "image_with_title_9jVh9U": {
+        "image_with_title_Tpgy8B": {
           "type": "image_with_title",
           "settings": {
-            "image_title": "Image title 4"
+            "image": "shopify://shop_images/imagebox.webp",
+            "image_title": "Enjoy the refreshing taste of pineapple and vanilla"
           }
         }
       },
@@ -245,7 +246,7 @@
         "image_with_title_4V8VNE",
         "image_with_title_HbTTna",
         "image_with_title_9M3bGX",
-        "image_with_title_9jVh9U"
+        "image_with_title_Tpgy8B"
       ],
       "settings": {
         "section_title": "Here’s how AG1 works"
