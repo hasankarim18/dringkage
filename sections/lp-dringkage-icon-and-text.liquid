@@ -1,0 +1,63 @@
+<section>
+  <div class="container">
+    <div class="row">
+    {% for block in section.blocks %}
+        {% case block.type %}
+            {% when 'icon-text' %}
+                <div class="col_4 col">
+                    <!-- Single List Icon Start -->
+                    <div class="list_item row f_start a_center ">
+                      <div class="item_img col_2">
+                        <img src="{{ block.settings.icon |  image_url  }}" width="" height="" alt="{{ image.alt }}">
+                      </div>
+                      <div class="item_content col_9">
+                        <p class="item_text">{{ block.settings.title}}</p>
+                      </div>
+                    </div>
+                    <!-- Single List Icon End -->
+                  </div>
+                  <!-- Column -->
+            {% else %}
+                <div></div>
+        {% endcase %}       
+       
+        
+    {% endfor %}
+     
+</div>
+</section>
+
+{% schema %}
+{
+  "name": "lpDringkage icon text",
+  "tag": "section",
+  "class": "padding_top_0",
+  "settings": [],
+  "blocks": [
+    {
+        "name": "Icon text",
+        "type": "icon-text",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "icon",
+                "label": "Select Icon"
+            },
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Write your image",
+                "default": "Science-driven nutrition supplement"
+            }
+
+        ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "lpDringkage icon text",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
