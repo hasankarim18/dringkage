@@ -160,6 +160,35 @@
         "icon_text_pttrE7": {
           "type": "icon-text",
           "settings": {
+            "icon": "shopify://shop_images/listimage3.svg",
+            "title": "Science-driven nutrition supplement"
+          }
+        },
+        "icon_text_x7D6nM": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "shopify://shop_images/listimage3.svg",
+            "title": "Science-driven nutrition supplement"
+          }
+        },
+        "icon_text_UKyxDz": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "shopify://shop_images/listimage3.svg",
+            "title": "Science-driven nutrition supplement"
+          }
+        },
+        "icon_text_mibaJ9": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "shopify://shop_images/listimage3.svg",
+            "title": "Science-driven nutrition supplement"
+          }
+        },
+        "icon_text_zYQjUX": {
+          "type": "icon-text",
+          "settings": {
+            "icon": "shopify://shop_images/listimage3.svg",
             "title": "Science-driven nutrition supplement"
           }
         },
@@ -173,6 +202,10 @@
       },
       "block_order": [
         "icon_text_pttrE7",
+        "icon_text_x7D6nM",
+        "icon_text_UKyxDz",
+        "icon_text_mibaJ9",
+        "icon_text_zYQjUX",
         "icon_text_bPxPyf"
       ],
       "settings": {}
