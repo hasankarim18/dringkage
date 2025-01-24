@@ -28,10 +28,18 @@
             "review_text": "I’ve noticed my recovery seems easier and I have consistent energy levels.",
             "review_date": "Eric T., 5/19/23"
           }
+        },
+        "review_whKFbF": {
+          "type": "review",
+          "settings": {
+            "review_text": "With AG1 I feel more energized and focused first thing in the morning.",
+            "review_date": "David T., 5/19/23"
+          }
         }
       },
       "block_order": [
-        "review_XCzMLL"
+        "review_XCzMLL",
+        "review_whKFbF"
       ],
       "settings": {
         "view_count": "37,776",
