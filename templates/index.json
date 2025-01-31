@@ -58,7 +58,13 @@
           }
         }
       },
-      "block_order": ["review_XCzMLL", "review_whKFbF", "review_K6HKna", "review_NdXj8J", "review_CPmzeH"],
+      "block_order": [
+        "review_XCzMLL",
+        "review_whKFbF",
+        "review_K6HKna",
+        "review_NdXj8J",
+        "review_CPmzeH"
+      ],
       "settings": {
         "view_count": "37,776",
         "title": "Verified 5-star reviews"
@@ -247,7 +253,25 @@
       }
     },
     "lp_dringkage_card_box": {
-      "type": "lp-dringkage-card-box"
+      "type": "lp-dringkage-card-box",
+      "blocks": {
+        "card_box_cfjH3V": {
+          "type": "card_box",
+          "settings": {
+            "image": "shopify://shop_images/cartbox1.webp",
+            "main_title": "Gut Health",
+            "content": "AG1 supports gut health with soothing, easy-to absorb ingredients that boost digestion and help ease bloating.*",
+            "star_number": 5,
+            "review_title": "Noticable changes",
+            "review_content": "The impact on my gut health is amazing. That alone is worth using the product.",
+            "reviews_name_date": "WERNER M. 5/30/23"
+          }
+        }
+      },
+      "block_order": [
+        "card_box_cfjH3V"
+      ],
+      "settings": {}
     }
   },
   "order": [
