@@ -266,10 +266,49 @@
             "review_content": "The impact on my gut health is amazing. That alone is worth using the product.",
             "reviews_name_date": "WERNER M. 5/30/23"
           }
+        },
+        "card_box_4mXGD8": {
+          "type": "card_box",
+          "settings": {
+            "image": "shopify://shop_images/cartbox3.webp",
+            "main_title": "Focus & energy",
+            "content": "AG1 supports gut health with soothing, easy-to absorb ingredients that boost digestion and help ease bloating.*",
+            "star_count": 5,
+            "review_title": "Noticable changes",
+            "review_content": "The impact on my gut health is amazing. That alone is worth using the product.",
+            "reviews_name_date": "WERNER M. 5/30/23"
+          }
+        },
+        "card_box_Rk8KgR": {
+          "type": "card_box",
+          "settings": {
+            "image": "shopify://shop_images/cartbox3.webp",
+            "main_title": "Gut Health",
+            "content": "AG1 supports gut health with soothing, easy-to absorb ingredients that boost digestion and help ease bloating.*",
+            "star_count": 5,
+            "review_title": "Noticable changes",
+            "review_content": "The impact on my gut health is amazing. That alone is worth using the product.",
+            "reviews_name_date": "WERNER M. 5/30/23"
+          }
+        },
+        "card_box_P48wCC": {
+          "type": "card_box",
+          "settings": {
+            "image": "shopify://shop_images/cartbox4.webp",
+            "main_title": "Gut Health",
+            "content": "AG1 supports gut health with soothing, easy-to absorb ingredients that boost digestion and help ease bloating.*",
+            "star_count": 5,
+            "review_title": "Noticable changes",
+            "review_content": "The impact on my gut health is amazing. That alone is worth using the product.",
+            "reviews_name_date": "WERNER M. 5/30/23"
+          }
         }
       },
       "block_order": [
-        "card_box_cfjH3V"
+        "card_box_cfjH3V",
+        "card_box_4mXGD8",
+        "card_box_Rk8KgR",
+        "card_box_P48wCC"
       ],
       "settings": {}
     }
