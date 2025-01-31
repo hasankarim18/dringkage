@@ -1,0 +1,51 @@
+<div class="col_6 col">
+  <!-- Singel Card Box Start -->
+  <div class="cart_box">
+    <!-- Singel Card Box Image -->
+    <div class="cart_img_box">
+      {%- unless block.settings.image -%}
+        {{ 'product-1' | placeholder_svg_tag: 'w-2o h-20' }}
+      {%- endunless -%}
+      {% if block.settings.image != blank %}
+        <img
+          class="cart_box_img"
+          src="{{ block.settings.image | image_url }}"
+          alt="cartbox1"
+        >
+      {% endif %}
+    </div>
+    <!-- Singel Card Box Image -->
+    <div class="cart_box_content">
+      <h3 class="cart_box_title">{{ block.settings.main_title }}</h3>
+      <p class="des_type4">
+        {{ block.settings.content }}
+      </p>
+    </div>
+    <!-- Top Right Icon Box -->
+    <div class="cart_icon">
+      <i class="fa-solid fa-plus"></i>
+    </div>
+    <!-- Click Show Box -->
+    <div class="overlay_box">
+      <div class="cart_box_content">
+        <h3 class="cart_box_title">{{ block.settings.main_title }}</h3>
+        <p class="des_type4">
+          {{ block.settings.content }}
+        </p>
+        <hr>
+        <div class="rev">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p class="des_type4">Noticeable change</p>
+        <p class="rev_text">“The impact on my gut health is amazing. That alone is worth using the product.”</p>
+        <p class="rev_text_b">WERNER M. 5/30/23</p>
+      </div>
+    </div>
+    <!-- Click Show Box -->
+  </div>
+  <!-- Singel Card Box -->
+</div>

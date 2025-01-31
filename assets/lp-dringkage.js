@@ -48,6 +48,7 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+/*
 var acc = document.getElementsByClassName('cart_box');
 var i;
 
@@ -69,3 +70,4 @@ for (i = 0; i < acc.length; i++) {
     // }
   });
 }
+*/

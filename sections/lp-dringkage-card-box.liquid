@@ -1,0 +1,138 @@
+<section>
+  <div class="container">
+    <div class="row p_tb_50">
+      <div class="col_8 col cart_box_top">
+        <h3 class="title_h3">Whole body benefits in one scoop</h3>
+        <p class="des_type2">
+          Even with the best diet, some nutrients can be hard to get. That’s why AG1 delivers optimal amounts of
+          nutrients in forms that help your body thrive.*
+        </p>
+      </div>
+      <!-- Column -->
+      <div class="col_4 col flex_end_end">
+        <a class="btn_style1" href="">Full Ingredient List</a>
+      </div>
+      <!-- Column -->
+    </div>
+    <!-- Row -->
+
+    <div class="row">
+      {% comment %} #blocks {% endcomment %}
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when '@app' %}
+            {% render block %}
+          {% when 'card_box' %}
+            {% render 'lp-dringkage-card-box-snippents', section: section, block: block %}
+          {% else %}
+            <div></div>
+        {% endcase %}
+      {% endfor %}
+
+      <!-- Column -->
+    </div>
+    <!-- Row -->
+  </div>
+  <!-- Container -->
+</section>
+
+{% schema %}
+{
+  "name": "lpDringkage CardBox",
+  "tag": "section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "@app"
+    },
+    {
+      "name": "Card Box",
+      "limit": 4,
+      "type": "card_box",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image"
+        },
+        {
+          "type": "text",
+          "label": "Main Title",
+          "default": "Gut Health",
+          "id": "main_title"
+        },
+        {
+          "type": "textarea",
+          "label": "content",
+          "default": "AG1 supports gut health with soothing, easy-to absorb ingredients that boost digestion and help ease bloating.*",
+          "id": "content"
+        },
+        {
+          "type": "header",
+          "content": "Review Section"
+        },
+        {
+          "type": "range",
+          "id": "star_number",
+          "label": "Number of stars",
+          "min": 0,
+          "max": 5,
+          "step": 1,
+          "default": 5
+        },
+        {
+          "type": "text",
+          "label": "Review title",
+          "default": "Noticable changes",
+          "id": "review_title"
+        },
+        {
+          "type": "textarea",
+          "label": "Review content",
+          "default": "The impact on my gut health is amazing. That alone is worth using the product.",
+          "id": "review_content"
+        },
+        {
+          "type": "text",
+          "default": "WERNER M. 5/30/23",
+          "label": "Reviewer Name and Date",
+          "id": "reviews_name_date"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "lpDringkage CardBox",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    var acc = document.getElementsByClassName('cart_box');
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener('click', function () {
+        console.log(this);
+        this.classList.toggle('active');
+        this.parentElement.classList.toggle('active');
+        // console.log(nextElementSibling);
+        // var overlay_box = this.nextElementSibling;
+
+        // // console.log(overlay_box)
+        // var overlay_box = document.getElementsByClassName('overlay_box');
+        // console.log(overlay_box);
+
+        // if (overlay_box.style.display === 'block') {
+        //   overlay_box.style.display = 'none';
+        // } else {
+        //   overlay_box.style.display = 'block';
+        // }
+      });
+    }
+  });
+</script>
