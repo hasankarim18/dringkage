@@ -37,8 +37,6 @@
         <hr>
         <div class="rev">
           {% assign star_count = block.settings.star_count %}
-          rev::
-          {{ block.settings.star_count }}
           <!-- Change this value to control the number of stars -->
           {% for i in (1..star_count) %}
             <i class="fa-solid fa-star"></i>
