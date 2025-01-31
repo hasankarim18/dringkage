@@ -248,6 +248,9 @@
     },
     "lp_dringkage_card_box": {
       "type": "lp-dringkage-card-box"
+    },
+    "lp_dringkage_buy_now": {
+      "type": "lp-dringkage-buy-now"
     }
   },
   "order": [
