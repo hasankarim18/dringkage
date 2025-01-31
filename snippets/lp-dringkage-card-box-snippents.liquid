@@ -36,17 +36,18 @@
         </p>
         <hr>
         <div class="rev">
-          {% assign star_count = 4 %}
+          {% assign star_count = block.settings.star_count %}
           <!-- Change this value to control the number of stars -->
-
           {% for i in (1..star_count) %}
             <i class="fa-solid fa-star"></i>
           {% endfor %}
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
+          <!--
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          -->
         </div>
         <p class="des_type4">{{ block.settings.review_title }}</p>
         <p class="rev_text">“{{ block.settings.review_content }}”</p>
