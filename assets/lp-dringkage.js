@@ -11,25 +11,6 @@ var swiper = new Swiper('.mySwiper2', {
   },
 });
 
-var swiper = new Swiper('.mySwiper3', {
-  slidesPerView: 2.3,
-  spaceBetween: 30,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-});
-
-var swiper = new Swiper('.mySwiper4', {
-  slidesPerView: 1,
-  spaceBetween: 30,
-  loop: true,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
-});
-
 var acc = document.getElementsByClassName('accordion');
 var i;
 
