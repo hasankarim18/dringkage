@@ -1,57 +1,39 @@
-
-
 <section style="overflow: hidden;">
     <div class="container">
         <div class="row">
             <div class="col_5 col slider_left_box">
-
                 <h3 class="title_h3">Morning people</h3>
                 <p class="des_type3">The secret to being a morning person? Finding out what works for you. Go behind
                     the scenes with these Amazing Humans to see how starting the day with a routine you feel good
                     about makes all the difference.
 
                 </p>
-
-
             </div>
             <div class="col_7 col">
-
                 <div class="slider_section">
-
                     <!-- Swiper -->
                     <div class="swiper mySwiper2">
-
                         <div class="swiper-wrapper">
                             <div class="swiper-slide slider_box row">
                                 <a href="Image/slider1.png"  data-lightbox="video_box" >
-                                    <img class="slider_box_img" src="Image/slider1.png" alt="slider1">
+                                    <img width="" height="" class="slider_box_img" src="https://cdn.shopify.com/s/files/1/0634/3203/2342/files/slider1.png?v=1737530780" alt="slider1">
                                 </a>
                                 <h4 class="slider_box_title">Bobbi Brown</h4>
-
                             </div>
-
                             <div class="swiper-slide slider_box row">
                                 <a href="Image/slider2.png" data-lightbox="video_box" >
-                                    <img class="slider_box_img" src="Image/slider2.png" alt="slider2">
-                                </a>
+                                    <img width="" height="" class="slider_box_img" src="https://cdn.shopify.com/s/files/1/0634/3203/2342/files/slider2.png?v=1737530780" alt="slider2">                                </a>
                                 <h4 class="slider_box_title">Bobbi Brown</h4>
-
                             </div>
                             <div class="swiper-slide slider_box row">
                                 <a href="Image/slider3.png" data-lightbox="video_box" >
-                                    <img class="slider_box_img" src="Image/slider3.png" alt="slider3">
+                                    <img width="" height="" class="slider_box_img" src="https://cdn.shopify.com/s/files/1/0634/3203/2342/files/slider3.png?v=1737530780" alt="slider3">
                                 </a>
                                 <h4 class="slider_box_title">Bobbi Brown</h4>
-
                             </div>
-
-
-
                         </div>
-
-
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                        <div style="display:flex;" class="swiper-button-next"></div>
+                        <div style="display: flex;" class="swiper-button-prev"></div>
                     </div>
                 </div>
 
@@ -59,9 +41,25 @@
         </div>
     </div>
     </div>
-
-
-
+    </div>
     </div>
 </section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        var swiper = new Swiper('.mySwiper2', {
+  slidesPerView: 2.2,
+  spaceBetween: 30,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
+})
+</script>
 

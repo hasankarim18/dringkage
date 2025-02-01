@@ -263,6 +263,15 @@
     },
     "lp_dingkage_future": {
       "type": "lp-dringkage-future"
+    },
+    "lp_dringkage_morning_people": {
+      "type": "lp-dringkage-morning-people"
+    },
+    "lp_dringkage_faqs": {
+      "type": "lp-dringkage-faqs"
+    },
+    "lp_dringkage_join_movement": {
+      "type": "lp-dringkage-join-movement"
     }
   },
   "order": [
@@ -276,6 +285,9 @@
     "lp_dingkage_showing_data",
     "lp_dringkage_single_review",
     "lp_dringkage_video_review",
-    "lp_dingkage_future"
+    "lp_dingkage_future",
+    "lp_dringkage_morning_people",
+    "lp_dringkage_faqs",
+    "lp_dringkage_join_movement"
   ]
 }
